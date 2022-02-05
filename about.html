@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' content="KTN Main page">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KTN을 소개합니다</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+      body{margin-left:0;margin-right:0;padding:0;background-color:#F5F5F5;}
+      #logo {text-align:center;}
+
+      .container {display:flex; flex-direction:row;height:20%;background-color:#2E2E2E;}
+      .item {color: white; text-align:center;flex-grow:1;font-family: 'NEXON Lv2 Gothic';font-weight:bold;padding:0.5%;}
+      .item>a {text-decoration:none; color:inherit;font-size:0.8rem;}
+
+      @font-face {font-family: 'NEXON Lv2 Gothic';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');font-weight: normal;font-style: normal;}
+      @font-face {font-family: 'NEXON Lv2 Gothic Bold';src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic Bold.woff') format('woff');font-weight:normal;font-style:normal;}
+
+      #table1 {border-style:solid;border-width:0.5px;border-color:#2E2E2E;margin:3%;padding:2%;}
+      .title_text{font-family: 'NEXON Lv2 Gothic Bold';font-size:120%;color:#2E2E2E;font-weight:lighter;margin-bottom:3%;}
+      .content_text{font-family: 'Noto Sans KR';font-size:80%;color:#2E2E2E;line-height:200%;margin-bottom:3%;}
+      table img {width:100%;margin-bottom:2%;}
+      .pic{width:100%;}
+      #intro{margin-bottom:3%;}
+      #map{text-align:center;margin-top:3%;}
+      #map iframe{width:80%;}
+      #exp{text-align:center;}
+
+      #outline {border-style:solid;border-width:0.5px;border-color:#2E2E2E;margin:3%;padding:2%;width:94%;}
+
+      #plan {width:90%;table-layout:fixed;border-top:solid;border-bottom:solid;border-spacing:10px;text-align:center;margin:auto;margin-bottom:3%;}
+
+      .year {text-align:center;margin-top:2%;font-family: 'Noto Sans KR';font-size:10%;color:#999999;}
+
+      .turn {text-align:center;margin-bottom:2%;font-family: 'Noto Sans KR';color:#2E2E2E;}
+
+      .major {text-align:left;font-family: 'Noto Sans KR';color:#2E2E2E;font-size:0.9rem;margin-left:5%;}
+
+      .names {text-align:left;font-family: 'Noto Sans KR';color:#2E2E2E;font-size:10%;margin-left:5%;}
+
+      .month-back {width:50%;background-color:#DEDEDE;}
+
+      .container3 {display:flex;flex-direction:row;background-color:#2E2E2E;padding:0.5%;}
+      .item3{font-family: 'NEXON Lv2 Gothic';text-align:center;color:white;flex-grow:1;font-size:0.5rem;margin-top:0.5%;margin-bottom:0.5%;margin-right:5%;}
+      .item3 > a{text-decoration:none; color:inherit;}
+      #item3-1 {margin-left:25%}
+      #item3-4 {margin-right:25%}
+
+      footer{margin-top:15px;}
+      #footer_text{margin:1%;font-color:#2E2E2E;font-family: 'Noto Sans KR';text-align:center;font-size:0.001rem;line-height:130%;font-weight:300;}
+
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div id='logo'><a href='main_page.html'><img src="KTN_logo.png" width=8%></a></div>
+    </header>
+    <menus>
+      <div class='container'>
+        <div class = 'item'><a href='about.html'>ABOUT</a></div>
+        <div class = 'item'><a href='production.html'>PRODUCTION</a></div>
+        <div class = 'item'><a href='event.html'>EVENT</a></div>
+        <div class = 'item'><a href='contact.html'>CONTACT</a></div>
+        <div class = 'item'><a href='http://intranet.ktn.ac.kr'>INTRANET</a></div>
+      </div>
+    </menus>
+
+    <contents>
+      <table id='table1'>
+      <tr><td>
+
+      <div class='title_text'>인사말</div>
+      <video src='ktn.mp4' autoplay width=100% controllist='nodownload' video controls>
+        Sorry, your browser doesn't support embedded videos.
+        </video>
+      <div class='content_text'>1997년 대학방송의 새로운 장을 열며 개국한 KTN은 교내방송으로서의 역할뿐만 아니라 인터넷 시대에 새로운 영상문화를 주도하는 선구자로서의 역할을 담당하고자 합니다. 대학TV방송의 선두를 지켜온 고려대학교 TV방송국의 홈페이지가 새로운 모습으로 다시 태어났습니다. 고대인의 젊음과 열정이 숨어있는 많은 프로그램들이 여러분의 평가를 기다리고 있습니다. KTN은 앞으로도 더욱 발전된 모습으로 여러분을 찾아뵐 것입니다.</div>
+
+      <div class='title_text'>시설소개</div>
+      <img src='시설소개.jpg'>
+      <div class='content_text'>고려대학교TV방송국(KTN, 교내케이블TV CH4)은 1997년 5월 2일 개국한 고대 유일의 TV방송국입니다. KTN은 60평의 제작 스튜디오와 100여평의 부속 시설 및 최첨단 디지털 방송장비를 갖추고 미디어학부에서 선발된 정예인원으로 운영됩니다. 뉴스와 다큐멘터리, 캠페인, 홍보물 등 다양한 영상물을 제작하고 있으며 기획에서 편집, 송출까지 완벽한 방송실습이 이루어 집니다. TV 스튜디오는 60평규모로 각종 강연을 비롯해 뉴스, 토론회, 기획물 등을 제작하기 위한 첨단 방송장비를 갖추고 있습니다. 편집 시스템은 Apple Mac Pro와 Windows 운영체제의 IBM계열의 Non-Linear 편집 시스템으로 구성되어 있으며 XDCAM, NXCAM의 촬영 장비도 함께 갖추고 있어 완벽한 편집실습과 방송제작이 이루어지고 있습니다. 추후 지속적인 최신장비 구입과 전교에 설치된 케이블TV방송망을 포함한 위성방송등 송출망 확대에 힘쓰고 있습니다.</div>
+
+      <div class='title_text' id='intro'>정규국원 소개</div>
+      <img src='49-1.png' class='pic'>
+      <img src='49-2.png' class='pic'>
+      <img src='50-1.png' class='pic'>
+
+      <div class='title_text'>명예국원 소개</div>
+      <table id='plan' rules=all>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>1997</div>
+            <div class='turn'>1기</div>
+          </td>
+          <td>
+            <div class='major'>신문방송학과 96, 97</div>
+            <div class='names'>박준영 서재교 안미영 이종훈 정용웅 조지현</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>1997</div>
+            <div class='turn'>2기</div>
+          </td>
+          <td>
+            <div class='major'>신문방송학과 97</div>
+            <div class='names'>김학철 김혜영 백민재 이동훈 이선경 장은진</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>1998</div>
+            <div class='turn'>3기</div>
+          </td>
+          <td>
+            <div class='major'>신문방송학과 98</div>
+            <div class='names'>김성수 김수경 박준형 이효정 정동욱 정승환 최혜규 함영승 황기범</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>1998</div>
+            <div class='turn'>4기</div>
+          </td>
+          <td>
+            <div class='major'>신문방송학과 98</div>
+            <div class='names'>김민관 김영은 김현주 신상욱</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>1999</div>
+            <div class='turn'>5기</div>
+          </td>
+          <td>
+            <div class='major'>신문방송학과 99</div>
+            <div class='names'>류귀주 박찬영 오세준 이승호 하호정</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>1999</div>
+            <div class='turn'>6기</div>
+          </td>
+          <td>
+            <div class='major'>신문방송학과 99</div>
+            <div class='names'>김인영 김혜원 양익준 이나리 임강섭</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2000</div>
+            <div class='turn'>7기</div>
+          </td>
+          <td>
+            <div class='major'>신문방송학과 00</div>
+            <div class='names'>박혜영 배원정 이민태 이성민 조웅희</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2000</div>
+            <div class='turn'>8기</div>
+          </td>
+          <td>
+            <div class='major'>신문방송학과 00</div>
+            <div class='names'>이주형 임정미 정도영</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2001</div>
+            <div class='turn'>9기</div>
+          </td>
+          <td>
+            <div class='major'>신문방송학과/경제학과/정치외교학과 01</div>
+            <div class='names'>곽은영 김동규 박준의 이정규 정대진 최지용 황선우</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2001</div>
+            <div class='turn'>10기</div>
+          </td>
+          <td>
+            <div class='major'>신문방송학과 01</div>
+            <div class='names'>신상희 신수정</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2002</div>
+            <div class='turn'>11기</div>
+          </td>
+          <td>
+            <div class='major'>언론학부 01</div>
+            <div class='names'>박세라 서현선 신상진 임정훈 최지혜 한지원</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2002</div>
+            <div class='turn'>12기</div>
+          </td>
+          <td>
+            <div class='major'>언론학부 02</div>
+            <div class='names'>이민희 이신혜 이유정</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2003</div>
+            <div class='turn'>13기</div>
+          </td>
+          <td>
+            <div class='major'>언론학부 03</div>
+            <div class='names'>김희원 신동찬 이선희 이준엽 조범철 한현영</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2003</div>
+            <div class='turn'>14기</div>
+          </td>
+          <td>
+            <div class='major'>언론학부 03</div>
+            <div class='names'>오종석</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2004</div>
+            <div class='turn'>15기</div>
+          </td>
+          <td>
+            <div class='major'>언론학부 04</div>
+            <div class='names'>곽희원 김기태 김담희 성승우 한승훈</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2005</div>
+            <div class='turn'>17기</div>
+          </td>
+          <td>
+            <div class='major'>언론학부 05</div>
+            <div class='names'>김샛별 배성민 배정은 심태연 윤현정 이민수</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2005</div>
+            <div class='turn'>18기</div>
+          </td>
+          <td>
+            <div class='major'>언론학부 05</div>
+            <div class='names'>김진용</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2006</div>
+            <div class='turn'>19기</div>
+          </td>
+          <td>
+            <div class='major'>언론학부 06</div>
+            <div class='names'>김유진 박규령 박미래 서가영</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2006</div>
+            <div class='turn'>20기</div>
+          </td>
+          <td>
+            <div class='major'>언론학부 06</div>
+            <div class='names'>최수민</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2007</div>
+            <div class='turn'>21기</div>
+          </td>
+          <td>
+            <div class='major'>언론학부 07</div>
+            <div class='names'>김정우 김희수 노영섭 맹선호 박승희 유슬아 이선아</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2008</div>
+            <div class='turn'>23기</div>
+          </td>
+          <td>
+            <div class='major'>언론학부 08</div>
+            <div class='names'>유향란 심재훈 정승연 최영은 최재원 황수덕</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2009</div>
+            <div class='turn'>25기</div>
+          </td>
+          <td>
+            <div class='major'>언론학부 09</div>
+            <div class='names'>최재규 김민지 장수영 김미진 김잔디 남혜빈 송현준</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2010</div>
+            <div class='turn'>27기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 10</div>
+            <div class='names'>경은솔 김순영 김영규 김해랑 남록지 성민영 안도언 안소윤 이연주 장민경 조신</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2010</div>
+            <div class='turn'>28기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 10</div>
+            <div class='names'>김소연 박진우 유지현</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2011</div>
+            <div class='turn'>29기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 11</div>
+            <div class='names'>김보희 김예린 나윤현 박성은 박송이 양주찬 이병채 이선민 정송이 정유진 최민희 최인우</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2011</div>
+            <div class='turn'>30기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 11</div>
+            <div class='names'>윤소라</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2012</div>
+            <div class='turn'>31기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 12</div>
+            <div class='names'>강수진 김채은 이동훈 정민수</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2012</div>
+            <div class='turn'>32기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 12</div>
+            <div class='names'>권서현 이대홍</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2013</div>
+            <div class='turn'>33기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 13</div>
+            <div class='names'>강지수 김민선 김지수 김하운 김희상 노현홍 박재일 박채영 배륜 유승희 유혜수 이소현</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2013</div>
+            <div class='turn'>34기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 13</div>
+            <div class='names'>강유진 서정안 홍명지</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2014</div>
+            <div class='turn'>35기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 14</div>
+            <div class='names'>김경민 김난영 김동은 김시원 김요셉 김인수 문현 소민희 이예지 임찬주 조웅희 조현경 지혜인</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2014</div>
+            <div class='turn'>36기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 14</div>
+            <div class='names'>노두호 박규민 서동욱</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2015</div>
+            <div class='turn'>37기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 15</div>
+            <div class='names'>강다연 김성수 박민준 안준수 윤혜인 이민아 이지민 임지수 정진구 최소정 현재원 황혁순</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2015</div>
+            <div class='turn'>38기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 15</div>
+            <div class='names'>신소명 이정재</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2016</div>
+            <div class='turn'>39기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 16</div>
+            <div class='names'>구민지 김선민 김영경 김정현 김채연 이영은 이윤지 전혜지 천재원 홍유진</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2016</div>
+            <div class='turn'>40기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 16</div>
+            <div class='names'>박가영 최수현</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2017</div>
+            <div class='turn'>41기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 17</div>
+            <div class='names'>고서영 김동희 김민선 김주영 김준태 박지혜 심혜빈 이호진 최정우 최준형 표정우</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2017</div>
+            <div class='turn'>42기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 17</div>
+            <div class='names'>홍지환</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2018</div>
+            <div class='turn'>43기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 18</div>
+            <div class='names'>김서영 김주승 김태경 박서정 박태림 백송이 전예진 조유선 최은아</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2018</div>
+            <div class='turn'>44기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 18</div>
+            <div class='names'>강윤희 조수민</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2019</div>
+            <div class='turn'>45기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 19</div>
+            <div class='names'>강동연 고도희 김강민 김소현 김수민 김하영 박규민 윤채원 이건하 이장호 이지원 이지은 천세원</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2019</div>
+            <div class='turn'>46기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 19</div>
+            <div class='names'>김수민 김하영 윤채원 이지수</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2020</div>
+            <div class='turn'>47기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 20</div>
+            <div class='names'>강미령 김세비 김은수 김표근 박주언 박혜준 임수현 정유림 하승준</div>
+          </td>
+        </tr>
+
+        <tr>
+          <td class='month-back'>
+            <div class='year'>2020</div>
+            <div class='turn'>48기</div>
+          </td>
+          <td>
+            <div class='major'>미디어학부 20</div>
+            <div class='names'>권지민 김민 김민수 김현진 이가은 이세현</div>
+          </td>
+        </tr>
+
+      </table>
+
+
+
+      <div class='title_text'>위치</div>
+      <div id='map'>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3161.6590983504148!2d127.028969515252!3d37.586644379794095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbca4e48b1601%3A0x3d7d1061dccda794!2z7ISc7Jq47Yq567OE7IucIOyViOyVlOuPmTXqsIAg6rOg66Ck64yA7ZWZ6rWQIOuvuOuUlOyWtOq0gA!5e0!3m2!1sko!2skr!4v1637063762596!5m2!1sko!2skr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+
+      <div class='content_text' id='exp'>
+        02841  서울특별시 성북구 안암로 145 고려대학교 홍보관 4층 고려대학교 TV방송국 KTN<br>
+        전화번호 : 02-3290-1521, 6
+      </div>
+
+      </td></tr>
+      </table>
+    </contents>
+
+    <footer>
+      <div class='container3'>
+        <div class='item3' id='item3-1'><a href='main_page.html'>KTN</a></div>
+        <div class='item3'><a href='https://portal.korea.ac.kr/front/Intro.kpd'>KUPID</a></div>
+        <div class='item3'><a href='http://www.korea.ac.kr/mbshome/mbs/university/index.do'>고려대학교</a></div>
+        <div class='item3' id='item3-4'><a href='http://data.ktn.ac.kr'>자료관리</a></div>
+      </div>
+      <div id='footer_text'>
+      1997-현재, 고려대학교 TV방송국 KTN 모든 소유권 보유.<br>서울특별시 성북구 안암로 145 고려대학교 홍보관 4층 고려대학교 TV방송국 KTN<br>02-3290-1521, 6 / media@korea.ac.kr
+      </div>
+    </footer>
+  </body>
+</html>
